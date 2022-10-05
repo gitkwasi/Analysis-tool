@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="crossorigin=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Prediction Tool</title>
+</head>
+<body>
+    <section>
+        <div class="left-sidebar">
+            <h4>1</h4>
+            <h4>2</h4>
+        </div>
+        <div id="mapid" class="mapspace">
+            
+        </div>
+        <div class="graph-console">
+            <div class="chart">
+                <canvas id="mychart"  ></canvas>
+
+            </div>
+            <div class="console">
+             
+               <div class="tabs">
+                    <button class="tablinks" onclick="console_control(event, 'district')">District</button>
+                    <button class="tablinks"onclick="console_control(event, 'facility')">Facility</button>
+                    <button class="tablinks" onclick="console_control(event, 'placeholder')">Placeholder</button>
+                </div>
+               <div class="tab-content" id="district">
+                    <form action="{{url_for('get_district_product')}}" class="form1">
+                        <input type="text" name="district_variable" placeholder="District" >
+                        <input type="text" name="product_variable" placeholder="Product">
+                        <input type="date" name="start_date" id="date1" min="2019-01-01" required>
+                        <input type="date" name="end_date" id="date2" required>
+                        <input type="submit" name="" id="">
+                    </form>
+                    <div style="overflow-y: auto;">
+                        <table>
+                            <tr style="width: 100%; text-align:left;">
+                                <th>Contributing facilities</th>
+                                <th>Order count</th>
+                            </tr>
+                            <tbody id="table_body" style="text-align:left">
+                            </tbody>
+                        </table>
+                    </div>
+               </div>
+               <div class="tab-content" id="facility">
+                   <form action="{{url_for('get_facility_product')}}" class="form2">
+                       <input type="text" name="facility_variable" id="facility_variable" placeholder="Facility Name">
+                       <input type="checkbox" name="product" id="blood" value="Blood"><label for="blood">Blood</label><br>
+                       <input type="checkbox" name="product" id="medical" value="Medical"><label for="medical">Medical</label>
+                       <input type="checkbox" name="product" id="vaccine" value="Vaccine"><label for="vaccine">Vaccine</label>
+                       <input type="date" name="start_date" id="date1" min="2019-01-01" required>
+                        <input type="date" name="end_date" id="date2" required>
+                       <input type="submit"  id="">
+                   </form>
+
+               </div>
+               <div class="tab-content" id="placeholder">
+                   <h4>Placeholder</h4>
+               </div>
+               
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    
+</script>
+<script src="{{url_for('static', filename='index.js')}}"></script>
+<script 
+src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" 
+integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="crossorigin=""></script>
+<script>
+
+    // Content for map configuration
+    var mymap = L.map('mapid').setView([6.032076, -0.448527], 8);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/dark-v10',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1Ijoia3dhc2lzaWF3IiwiYSI6ImNrZGJxeTBxaDBkd3kyem5iOXpxMW9vbjIifQ.coqyUCryHBp_NrZurWxY5w'
+    }).addTo(mymap);
+
+    // adding Zipline custom marker
+    var zipline = L.icon({
+    iconUrl: "{{url_for('static',filename='zipline.jpg')}}",
+    iconSize:     [15, 15], // size of the icon
+    shadowSize:   [0, 0], // size of the shadow
+    iconAnchor:   [5, 5], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+
+    //  rendering nest
+    var nest = L.marker([6.079158, -0.467274],{icon:zipline}).addTo(mymap);
+
+    // adding warehouse marker
+    var medical_store = L.icon({
+    iconUrl: "{{url_for('static',filename='warehouse.svg')}}",
+    iconSize:     [15, 15], // size of the icon
+    shadowSize:   [0, 0], // size of the shadow
+    iconAnchor:   [5, 5], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+    // redering warehouse marker
+    var warehouse = L.marker([6.072546206595685, -0.24863969471717115],{icon:medical_store}).addTo(mymap);
+
+    // adding facility marker
+    var facility = L.icon({
+    iconUrl: "{{url_for('static',filename='hospital.jpg')}}",
+    iconSize:     [15, 15], // size of the icon
+    shadowSize:   [0, 0], // size of the shadow
+    iconAnchor:   [5, 5], // point of the icon which will correspond to marker's location
+    shadowAnchor: [4, 62],  // the same for the shadow
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+    });
+
+
+    
+    // This section of the code is where data from the backend is piped into the frontend Javascript
+    // Proceed with caution and consult the naming in the backend before any change else the code will break
+
+
+    let myvar = {{results|tojson}} // This variable represent data that is used in the rendering of the district Tab of the console
+    // console.log(myvar)
+    
+    
+    let facility_results = {{facility_product|tojson}} // This variable represent data that is used in the rendering of the facility Tab of the console
+    // console.log(facility_results)
+    
+   
+    
+    // This section of the code is what is used to create the facility marker and the pop-up facility name balloon
+    let all_facilities = myvar['facilities'];
+    all_facilities.forEach(element => {
+        let lat = element['latitude'];
+        let lon = element['longitude'];
+        var facilities = L.marker([lat, lon],{icon:facility}).addTo(mymap);
+        facilities.bindPopup(element['HEALTH_FACILITY_NAME']).openPopup()
+        
+    });
+   
+    
+    
+    // Building the 'contribution' table.
+    // The table exists in the District section of the console
+    let contributing_facilities = myvar.contributing_facilities //This variable is used to create the  table to show the contributing facilities    
+    for(const key in contributing_facilities ){
+        let table_body =  document.getElementById('table_body');
+        
+        // Create the row and cells to fit in the table body
+        let content_row = document.createElement('tr')
+        let facility_name = document.createElement('td');
+        let order_contribution = document.createElement('td');
+
+        // Assigning data to the cells created above
+        facility_name.innerText = key;
+        order_contribution.innerText = contributing_facilities[key]; 
+
+        // Appending the cells to the row 
+        content_row.append(facility_name, order_contribution);
+
+        // Appending the row to the table body
+        table_body.appendChild(content_row);
+    }
+
+</script>
+<script>
+    const ctx =  document.getElementById("mychart").getContext("2d");
+
+    facility_product_array = Object.keys(facility_results)
+    console.log(facility_product_array)
+    facility_product_array.forEach((key,)=>{
+        
+        const graphLabel = key
+        const xAxis = Object.keys(facility_results[key]);
+        const yAxis = Object.values(facility_results[key]);
+
+        const data ={
+            xAxis,
+            datasets: [
+                {
+                    data: yAxis ,
+                    label: graphLabel,
+                    tension:0.4
+                },
+            ],   
+        }
+        const config = {
+            type: 'line',
+            data: data,
+            options: {
+                responsive: true
+            }
+        }
+
+        const myChart =  new Chart(ctx,config)
+    })
+
+    // const myChart =  new Chart(ctx,config)
+
+
+    
+
+    // const labels= Object.keys(myvar.unique_date_count) ;
+    // const labels= ['a','b', 'c', 'd', 'e'] ;
+  
+
+    // const data ={
+    //     labels,
+    //     datasets: [
+    //         {
+    //         data: [1,5,7,10,5] ,
+    //         label: myvar['district_name'] + ' ' + myvar['product_type'] +' '+ ' performance',
+    //         borderColor:'red',
+    //         tension:0.4
+    //         },
+    //     ],   
+    // }
+    // Object.values(myvar.unique_date_count)
+    
+    // const config = {
+    //     type: 'line',
+    //     data: data,
+    //     options: {
+    //         responsive: true
+    //     }
+    // }
+
+    // const myChart =  new Chart(ctx,config)
+
+
+    // const labels= ['a','b','c','d','e','f','g','h','i'];
+
+    // const order_Numbers = [{
+    //     dates: facility_results['B']
+    // }]
+
+    // const data ={
+    //     labels,
+    //     datasets: [
+    //         {
+    //         data:  [1,2,3,4,5,6,7,8,9],
+    //         label: myvar['district_name'] + ' ' + myvar['product_type'] +' '+ ' performance',
+    //         borderColor:'red',
+    //         tension:0.4
+    //         },
+    //     ],   
+    // }
+
+    
+    // const config = {
+    //     type: 'line',
+    //     data: data,
+    //     options: {
+    //         responsive: true
+    //     }
+    // }
+
+    // const myChart =  new Chart(ctx,config)
+
+  
+</script>
+</html>

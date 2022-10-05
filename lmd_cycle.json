@@ -1,0 +1,1817 @@
+[
+  {
+    "district": "West Akyem",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-03-03",
+    "week": 9
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-03-10",
+    "week": 10
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-02-03",
+    "week": 5
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-02-03",
+    "week": 5
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-02-03",
+    "week": 5
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-02-03",
+    "week": 5
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "Okere",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-02-10",
+    "week": 6
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-02-17",
+    "week": 7
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-02-17",
+    "week": 7
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-02-17",
+    "week": 7
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-02-17",
+    "week": 7
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-02-17",
+    "week": 7
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-02-24",
+    "week": 8
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-02-24",
+    "week": 8
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-02-24",
+    "week": 8
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-02-24",
+    "week": 8
+  },
+  {
+    "district": "West Akyem",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Okere",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "West Akyem",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-05-12",
+    "week": 19
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-05-19",
+    "week": 20
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-04-14",
+    "week": 15
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Okere",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-04-21",
+    "week": 16
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-04-28",
+    "week": 17
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-05-05",
+    "week": 18
+  },
+  {
+    "district": "West Akyem",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-07-28",
+    "week": 30
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-08-04",
+    "week": 31
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-06-29",
+    "week": 26
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-06-29",
+    "week": 26
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-06-29",
+    "week": 26
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-06-29",
+    "week": 26
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "Okere",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-07-06",
+    "week": 27
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-07-13",
+    "week": 28
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-07-13",
+    "week": 28
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-07-13",
+    "week": 28
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-07-13",
+    "week": 28
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-07-13",
+    "week": 28
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-07-20",
+    "week": 29
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-07-20",
+    "week": 29
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-07-20",
+    "week": 29
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-07-20",
+    "week": 29
+  },
+  {
+    "district": "West Akyem",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-10-06",
+    "week": 40
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-09-08",
+    "week": 36
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-09-08",
+    "week": 36
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-09-08",
+    "week": 36
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-09-08",
+    "week": 36
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "Okere",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-09-15",
+    "week": 37
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-09-22",
+    "week": 38
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-09-22",
+    "week": 38
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-09-22",
+    "week": 38
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-09-22",
+    "week": 38
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-09-22",
+    "week": 38
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-09-29",
+    "week": 39
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-09-29",
+    "week": 39
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-09-29",
+    "week": 39
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-09-29",
+    "week": 39
+  },
+  {
+    "district": "West Akyem",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Birim Central",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Achiase",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Birim South",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2021-10-13",
+    "week": 41
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-10-20",
+    "week": 42
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-11-16",
+    "week": 46
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-11-16",
+    "week": 46
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-11-16",
+    "week": 46
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-11-16",
+    "week": 46
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "Okere",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-11-23",
+    "week": 47
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-12-01",
+    "week": 48
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-12-01",
+    "week": 48
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-12-01",
+    "week": 48
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-12-01",
+    "week": 48
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-12-01",
+    "week": 48
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-12-08",
+    "week": 49
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-12-08",
+    "week": 49
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-12-08",
+    "week": 49
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-12-08",
+    "week": 49
+  },
+  {
+    "district": "West Akyem",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Birim Central",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Achiase",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Birim South",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2022-01-24",
+    "week": 4
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Birim North",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2022-02-02",
+    "week": 5
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2022-02-07",
+    "week": 6
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2022-02-07",
+    "week": 6
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2022-02-07",
+    "week": 6
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2022-02-07",
+    "week": 6
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "Okere",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2022-02-14",
+    "week": 7
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2022-02-21",
+    "week": 8
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2022-02-21",
+    "week": 8
+  },
+  {
+    "district": "Suhum",
+    "date": "2022-02-21",
+    "week": 8
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2022-02-21",
+    "week": 8
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2022-02-21",
+    "week": 8
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2022-03-01",
+    "week": 9
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2022-03-02",
+    "week": 9
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2022-03-03",
+    "week": 9
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2022-03-04",
+    "week": 9
+  },
+  {
+    "district": "West Akyem",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Birim Central",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Achiase",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Birim South",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2022-04-04",
+    "week": 14
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Birim North",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2022-04-11",
+    "week": 15
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2022-04-18",
+    "week": 16
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2022-04-18",
+    "week": 16
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2022-04-18",
+    "week": 16
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2022-04-18",
+    "week": 16
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "Okere",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2022-04-25",
+    "week": 17
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2022-05-04",
+    "week": 18
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2022-05-04",
+    "week": 18
+  },
+  {
+    "district": "Suhum",
+    "date": "2022-05-04",
+    "week": 18
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2022-05-04",
+    "week": 18
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2022-05-04",
+    "week": 18
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2022-05-10",
+    "week": 19
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2022-05-10",
+    "week": 19
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2022-05-10",
+    "week": 19
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2022-05-10",
+    "week": 19
+  },
+  {
+    "district": "West Akyem",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Birim Central",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Achiase",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Birim South",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2022-06-28",
+    "week": 26
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Birim North",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2022-07-06",
+    "week": 27
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Okere",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2022-07-19",
+    "week": 29
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2022-07-27",
+    "week": 30
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2022-07-27",
+    "week": 30
+  },
+  {
+    "district": "Suhum",
+    "date": "2022-07-27",
+    "week": 30
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2022-07-27",
+    "week": 30
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2022-07-27",
+    "week": 30
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2022-08-03",
+    "week": 31
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2022-08-03",
+    "week": 31
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2022-08-03",
+    "week": 31
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2022-08-03",
+    "week": 31
+  },
+  {
+    "district": "West Akyem",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Birim Central",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Achiase",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Birim South",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2022-06-29",
+    "week": 26
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Birim North",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2021-09-07",
+    "week": 36
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2021-09-14",
+    "week": 37
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2021-09-14",
+    "week": 37
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2021-09-14",
+    "week": 37
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2021-09-14",
+    "week": 37
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "Okere",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2021-09-21",
+    "week": 38
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2021-09-28",
+    "week": 39
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2021-09-28",
+    "week": 39
+  },
+  {
+    "district": "Suhum",
+    "date": "2021-09-28",
+    "week": 39
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2021-09-28",
+    "week": 39
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2021-09-28",
+    "week": 39
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2021-10-05",
+    "week": 40
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2021-10-05",
+    "week": 40
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2021-10-05",
+    "week": 40
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2021-10-05",
+    "week": 40
+  },
+  {
+    "district": "West Akyem",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Birim Central",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Achiase",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Asene Manso Akroso",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Birim South",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Abuakwa South",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Abuakwa North",
+    "date": "2022-08-30",
+    "week": 35
+  },
+  {
+    "district": "Fanteakwa South",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Fanteakwa North",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Atiwa East",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Atiwa West",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Kwahu West",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Birim North",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Akyemansa",
+    "date": "2022-09-07",
+    "week": 36
+  },
+  {
+    "district": "Kwahu South",
+    "date": "2022-09-14",
+    "week": 37
+  },
+  {
+    "district": "Kwahu East",
+    "date": "2022-09-14",
+    "week": 37
+  },
+  {
+    "district": "Afram Plains South",
+    "date": "2022-09-14",
+    "week": 37
+  },
+  {
+    "district": "Afram Plains North",
+    "date": "2022-09-14",
+    "week": 37
+  },
+  {
+    "district": "New Juaben North",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "New Juaben South",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "Akwapim North",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "Okere",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "Kwaebibirem",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "Denkyembour",
+    "date": "2022-09-21",
+    "week": 38
+  },
+  {
+    "district": "Akwapim South",
+    "date": "2022-09-28",
+    "week": 39
+  },
+  {
+    "district": "Nsawam Adoagyiri",
+    "date": "2022-09-28",
+    "week": 39
+  },
+  {
+    "district": "Suhum",
+    "date": "2022-09-28",
+    "week": 39
+  },
+  {
+    "district": "Ayensuano",
+    "date": "2022-09-28",
+    "week": 39
+  },
+  {
+    "district": "Upper West Akyem",
+    "date": "2022-09-28",
+    "week": 39
+  },
+  {
+    "district": "Upper Manya",
+    "date": "2022-10-05",
+    "week": 40
+  },
+  {
+    "district": "Lower Manya",
+    "date": "2022-10-05",
+    "week": 40
+  },
+  {
+    "district": "Asuogyaman",
+    "date": "2022-10-05",
+    "week": 40
+  },
+  {
+    "district": "Yilo Krobo",
+    "date": "2022-10-05",
+    "week": 40
+  }
+]
